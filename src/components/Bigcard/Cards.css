@@ -1,0 +1,27 @@
+.Cards-big {
+  display: flex;
+  gap: 10px;
+width: 400px;
+
+
+}
+.parentContainer-big{
+  width: 100%;
+ margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .Cards{
+    flex-direction: column;
+  }
+  .parentContainer{
+    height: 9rem;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .Cards{
+    width: 90%;
+  }
+}
